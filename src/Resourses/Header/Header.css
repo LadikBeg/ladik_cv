@@ -1,7 +1,38 @@
 .header{
     background-color: #d2d2d2;
-    height: 100px;
+    height: 110px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    gap: 20px;
+
+}
+#main_text{
+    font-size: 24px;
+}
+.navigation_menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+.nabigation_button{
+    font-family: 'Josefin Slab', serif;
+    font-size: 21px;
+    background-color: #8d8d8d;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nabigation_button:hover{
+    transition: 0.3s;
+    background-color: #696969;
+}
+@media(max-width: 800px){
+    .navigation_menu{
+        display: none;
+    }
 }

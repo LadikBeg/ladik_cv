@@ -3,13 +3,13 @@
     height: 110px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 0 10px;
-    gap: 20px;
+
     position: static;
 }
 #main_text{
-    padding: 30px;
+    padding: 20px 30px;
     border-radius: 2px;
     background-color: dimgrey;
     color: white;
@@ -18,7 +18,13 @@
 .navigation_menu{
     display: flex;
     justify-content: space-evenly;
-    width: 60vw;
+    width: 50vw;
+}
+.change_lang{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 16px;
 }
 .nabigation_button{
     font-family: 'Josefin Slab', serif;
@@ -33,7 +39,7 @@
 }
 .nabigation_button:hover{
     transition: 0.3s;
-    background-color: #696969;
+
 }
 @media(max-width: 800px){
     .navigation_menu{

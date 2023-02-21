@@ -1,14 +1,18 @@
 .header{
-    background-color: #d2d2d2;
+
     height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 0 10px;
     gap: 20px;
-
+    position: static;
 }
 #main_text{
+    padding: 30px;
+    border-radius: 2px;
+    background-color: dimgrey;
+    color: white;
     font-size: 24px;
 }
 .navigation_menu{
@@ -19,8 +23,8 @@
 .nabigation_button{
     font-family: 'Josefin Slab', serif;
     font-size: 21px;
-    background-color: #8d8d8d;
-    color: white;
+    background-color: #d5cec4;
+    color: black;
     padding: 13px 25px;
     border: none;
     border-radius: 5px;

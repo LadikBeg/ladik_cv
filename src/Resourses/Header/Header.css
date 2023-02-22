@@ -35,7 +35,6 @@
     background-color: #a7a39e;
     border: none;
     cursor: pointer;
-    transition: 0.3s ease-out;
 }
 .language_button:hover{
     text-decoration: underline;
@@ -49,20 +48,25 @@
     border-radius: 5px;
     cursor: pointer;
     position: relative;
+    display: inline-block;
+    text-decoration: none;
 }
 .navigation_button:after{
     content: "";
     display: block;
     position: absolute;
-    left: 0;
     width: 0;
     height: 1px;
     background-color: black;
     transition: 0.4s ease-out;
+    right:0;
+    left: initial;
 }
 .navigation_button:hover:after,
 .navigation_button:focus:after {
 	width: 100%;
+    right:initial;
+    left: 0;
 }
 @media(max-width: 800px){
     .navigation_menu{

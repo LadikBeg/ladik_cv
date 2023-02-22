@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    height: 520px;
+    align-items: center;
+    justify-content: space-around;
+}
+#name_of_company_lsc{
+    font-size: 27px;
+}
+.left_side_content{
+    text-align: start;
+    font-size: 55px;
+}
+.right_side_content{
+    font-size: 25px;
+}
+.s{
+
+}
+
+
+

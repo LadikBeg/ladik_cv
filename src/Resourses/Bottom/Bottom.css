@@ -4,7 +4,7 @@
     justify-content: space-around;
     bottom: 0;
     background-color: #1c1c1c;
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
     height: 100px;
 }

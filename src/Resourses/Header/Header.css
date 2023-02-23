@@ -21,7 +21,7 @@
 .navigation_menu{
     display: flex;
     justify-content: right;
-    width: 55vw;
+    width: 60vw;
     gap: 10px;
 }
 .change_lang{

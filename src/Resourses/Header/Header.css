@@ -12,7 +12,6 @@
 }
 #main_text{
     padding: 8px 20px;
-    margin-left: 50px;
     border-radius: 2px;
     background-color: #545454;
     color: white;
@@ -21,14 +20,14 @@
 }
 .navigation_menu{
     display: flex;
-    justify-content: space-evenly;
-    width: 40vw;
-    margin-left: 600px;
+    justify-content: right;
+    width: 55vw;
+    gap: 10px;
 }
 .change_lang{
     display: flex;
-    justify-content: space-evenly;
-    gap: 5px;
+    justify-content: space-around;
+    align-items: right;
     font-size: 16px;
 }
 .language_button{

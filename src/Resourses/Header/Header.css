@@ -6,10 +6,12 @@
     justify-content: space-around;
     padding: 0 10px;
     width: 100%;
-    background-color: #a7a39e;
+    background-color: #eeeeee;
     cursor: auto;
     letter-spacing: 1px;
+
 }
+
 #main_text{
     padding: 8px 30px;
     border-radius: 2px;
@@ -30,6 +32,7 @@
     font-size: 16px;
     gap: 10px;
     cursor: pointer;
+    margin-right: 5vw;
 }
 .language_button{
     background-color: #a7a39e;
@@ -42,7 +45,7 @@
 .navigation_button{
     font-family: 'Cormorant', serif;
     font-size: 21px;
-    background-color: #a7a39e;
+    background-color: #eeeeee;
     color: black;
     border: none;
     border-radius: 5px;
@@ -68,8 +71,21 @@
     right:initial;
     left: 0;
 }
-@media(max-width: 800px){
+.material-symbols-outlined{
+    font-size: 27px;
+    display: none;
+}
+@media(max-width: 932px){
+
+}
+@media(max-width: 730px){
     .navigation_menu{
         display: none;
+    }
+    .change_lang{
+        display: none;
+    }
+    .material-symbols-outlined{
+        display: initial;
     }
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 body {
+  position: relative;
   margin: 0;
   font-family: 'Cormorant', serif;
   background-color: #d5cec4;

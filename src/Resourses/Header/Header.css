@@ -11,7 +11,7 @@
     letter-spacing: 1px;
 }
 #main_text{
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 2px;
     background-color: #545454;
     color: white;
@@ -27,8 +27,9 @@
 .change_lang{
     display: flex;
     justify-content: space-around;
-    align-items: right;
     font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
 }
 .language_button{
     background-color: #a7a39e;
@@ -39,7 +40,7 @@
     text-decoration: underline;
 }
 .navigation_button{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant', serif;
     font-size: 21px;
     background-color: #a7a39e;
     color: black;

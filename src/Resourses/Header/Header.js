@@ -1,26 +1,28 @@
 import '../Header/Header.css'
+import { useTranslation } from 'react-i18next';
 
 function Header() {
+
+    const { t, i18n } = useTranslation();
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language);
+    };
     return (
         <div className="header">
-
-            <p id='main_text'>
-                <b>IV Company <hr align="center" size="1" color="white"/> </b>
-            </p>
-
+            <p id='main_text'><b>IV Company
+                <hr  align="center"  size="1" color="white"/>
+            </b></p>
             <div className="navigation_menu">
-                <button className="navigation_button">Services</button>
-                <button className="navigation_button">Team</button>
-                <button className="navigation_button">Portfolio</button>
-                <button className="navigation_button">Skills and technologies</button>
-                <button className="navigation_button">Contact us</button>
+                <button className="navigation_button">{t("services")}</button>
+                <button className="navigation_button">{t("team")}</button>
+                <button className="navigation_button">{t("portfolio")}</button>
+                <button className="navigation_button">{t("skills")}</button>
+                <button className="navigation_button">{t("contact")}</button>
             </div>
-            
             <div className="change_lang">
-                <button className='language_button'>ENG</button>
-                <button className='language_button'>RU</button>
+                <p onClick={() => changeLanguage("en")}>Eng</p>
+                <p onClick={() => changeLanguage("ru")}>Rus</p>
             </div>
-
         </div>
     );
 }

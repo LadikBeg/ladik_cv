@@ -12,7 +12,7 @@ function Header() {
     return (
 
         <div className="header">
-            <p id='main_text'><b>IV Company Company
+            <p id='main_text'><b>IV Company
                 <hr  align="center"  size="1" color="white"/>
             </b></p>
             <div className="navigation_menu">

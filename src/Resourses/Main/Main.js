@@ -25,6 +25,7 @@ function Main() {
                 </div>
             </div>
             <img src={image} alt="landscape" className="image"/>
+
         </div>
     );
 }

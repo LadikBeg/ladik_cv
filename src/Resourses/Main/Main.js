@@ -5,10 +5,7 @@ import Menu from "../Header/menu/menu";
 import React from "react";
 
 function Main() {
-    const { t, i18n } = useTranslation();
-    const changeLanguage = (language) => {
-        i18n.changeLanguage(language);
-    };
+    const { t } = useTranslation();
     return (
         <div className="main">
             <Menu/>

@@ -1,12 +1,8 @@
 import '../Bottom/Bottom.css'
 import { useTranslation } from 'react-i18next';
-import iconInsta from './icon/3225191_app_instagram_logo_media_popular_icon.svg'
 
 function Bottom() {
-    const { t, i18n } = useTranslation();
-    const changeLanguage = (language) => {
-        i18n.changeLanguage(language);
-    };
+    const { t } = useTranslation();
     return (
         <div className="bottom">
 
@@ -35,12 +31,11 @@ function Bottom() {
 
             <hr  align="center"  size="1" color="white" width="90%"/>
             <div className='footer_bottom'>
-
                 <div className='made_by'> 
-                   <a className='made_by_link' href='#'>Website made by IV Company</a>
+                   <p className='made_by_link' >Website made by IV Company</p>
                 </div>
                 <div className='scrollup'>
-                    <a className='scrollup_link' href='#'>Back to top</a>
+                    <p className='scrollup_link'>Back to top</p>
                 </div>
             </div>
 

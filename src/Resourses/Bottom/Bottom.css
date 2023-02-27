@@ -49,6 +49,7 @@
     margin-bottom: 10px;
     font-weight: bold;
     cursor: pointer;
+    background-color: rgb(209, 209, 209);
 }
 .general_style>p{
     display: table;
@@ -89,6 +90,7 @@
     color: white;
     text-decoration: none;
     position:relative;
+    cursor: pointer;
 }
 .made_by_p:after,
 .scrollup_p:after {

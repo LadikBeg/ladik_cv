@@ -1,6 +1,7 @@
 /* Добавил что бы страницу можно было скролить */
 .main{
     padding-top: 70px;
+    height: 2500px;
 }
 /* ------------------------------------------- */
 
@@ -9,7 +10,7 @@
     height: 520px;
     align-items: center;
     justify-content: space-around;
-    width: 85vw;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     /* Добавил gap для того что бы текст не сьезжал когда сайт на русском  */
@@ -45,6 +46,42 @@
         height: 190px;
     }
 }
-
-
-
+/* ------------------------------------- */
+.container_description{
+    display: flex;
+    margin: 50px auto;
+    height: 700px;
+    width: 90vw;
+}
+.left_side_description{
+    width: 50%;
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 0 15px;
+    text-align: left;
+}
+.description_title{
+    font-size: 24px;
+}
+.description_text{
+    font-size: 22px;
+}
+.right_side_description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card{
+    height: 400px;
+    width: 28%;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+.card_title{
+    font-size: 2vw;
+}
+.card_text{
+    font-size: 1.5vw;
+}

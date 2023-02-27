@@ -83,13 +83,13 @@
 }
 
 /* ВОТ ТУТ НАХУЙ ЕБАНЫЙ В РОТ ЭТОТ ДИСПЛЕЙ БЛОК А НУЖЕН ИНЛАЙН БЛОК ЧТОБ РАБОТАЛО */
-div p{
+.general_style>p{
     display: block; 
     color: white;
     text-decoration: none;
     position:relative;
 }
-div p:after{
+.general_style>p:after{
     position: absolute;
     content: '';
     display: block;
@@ -100,7 +100,7 @@ div p:after{
     right:0;
     left: initial;
 }
-div p:hover:after{
+.general_style>p:hover:after{
     width: 100%;
     right:initial;
     left: 0;

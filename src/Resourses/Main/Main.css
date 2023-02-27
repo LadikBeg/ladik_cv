@@ -81,7 +81,9 @@
 }
 .card_title{
     font-size: 2vw;
+    cursor: default;
 }
 .card_text{
     font-size: 1.5vw;
+    cursor: default;
 }

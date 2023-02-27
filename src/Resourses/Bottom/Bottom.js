@@ -16,15 +16,15 @@ function Bottom() {
                     <p>{t("contact")}</p>
                 </div>
                 <div className="contact_us general_style">
-                    <p>{t("contact")}</p>
+                    <p>{t("contact us")}</p>
                     <p>Instagram</p>
                     <p>Facebook</p>
                     <p>Telegram</p>
                 </div>
                 <div className="mail_us general_style">
                     <p>Send your email</p>
-                    <input placeholder="your email"/>
-                    <textarea placeholder="your message" ></textarea>
+                    <input placeholder="Your e-mail"/>
+                    <textarea placeholder="Your message..." ></textarea>
                     <button>Send message</button>
                 </div>
             </div>
@@ -32,10 +32,10 @@ function Bottom() {
             <hr  align="center"  size="1" color="white" width="90%"/>
             <div className='footer_bottom'>
                 <div className='made_by'> 
-                   <p className='made_by_link' >Website made by IV Company</p>
+                   <p className='made_by_p' >Website made by IV Company</p>
                 </div>
                 <div className='scrollup'>
-                    <p className='scrollup_link'>Back to top</p>
+                    <p className='scrollup_p'>Back to top</p>
                 </div>
             </div>
 

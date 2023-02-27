@@ -1,21 +1,22 @@
 .bottom{
     background-color: #0f0f0f;
     width: 100%;
-    height: 320px;
+    height: 270px;
 }
 .footer_top{
     display: flex;
     justify-content: space-around;
     color: white;
+    text-transform: uppercase;
+    flex-wrap: wrap;
 }
 .general_style{
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     letter-spacing: 2px;
-
 }
 .general_style>p:first-of-type{
-    font-size: 21px;
+    font-size: 18px;
     cursor: default;
 }
 .general_style>p:not(first-child){
@@ -25,13 +26,24 @@
     display: grid;
     gap: 20px;
 }
-.mail_us>textarea{
+.mail_us input{
+    margin-top: -30px;
+    background-color: rgb(209, 209, 209);
+}
+.mail_us textarea{
     height: 50px;
     width: 250px;
     resize: none;
+    background-color: rgb(209, 209, 209);
 }
-.mail_us>button{
-    height: 30px;
+.mail_us button{
+    width: 80%;
+    margin: auto;
+    text-transform: uppercase;
+    height: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .footer_bottom{
     display: flex;
@@ -44,20 +56,15 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.made_by>p,
-.scrollup>p{
-    color: white;
-    text-decoration: none;
-}
 .made_by,
 .scrollup{
     display: inline-block;
-    color: #000;
+    color: white;
     text-decoration: none;
     position:relative;
 }
-.made_by:after,
-.scrollup_link:after {
+.made_by_p:after,
+.scrollup_p:after {
     position: absolute;
     content: '';
     display: block;
@@ -68,13 +75,33 @@
     right:0;
     left: initial;
 }
-.made_by:hover:after,
-.scrollup_link:hover:after{
+.made_by_p:hover:after,
+.scrollup_p:hover:after{
     width: 100%;
     right:initial;
     left: 0;
 }
-.social_icons{
-    width: 30px;
-    height: 30px;
+
+/* ВОТ ТУТ НАХУЙ ЕБАНЫЙ В РОТ ЭТОТ ДИСПЛЕЙ БЛОК А НУЖЕН ИНЛАЙН БЛОК ЧТОБ РАБОТАЛО */
+div p{
+    display: block; 
+    color: white;
+    text-decoration: none;
+    position:relative;
+}
+div p:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fdfdfd;
+    transition: width 0.4s;
+    right:0;
+    left: initial;
+}
+div p:hover:after{
+    width: 100%;
+    right:initial;
+    left: 0;
 }

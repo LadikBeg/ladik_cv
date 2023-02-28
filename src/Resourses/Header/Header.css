@@ -9,7 +9,7 @@
     background-color: #eeeeee;
     cursor: auto;
     letter-spacing: 1px;
-
+    z-index: 1;
 }
 
 #main_text{

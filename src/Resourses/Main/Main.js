@@ -42,68 +42,98 @@ function Main() {
                 <div className='right_side_description'>
 
                     <div className='card'>
-
+                        
                         <div className='card_title'>
                             <h4>Audit & communication strategy</h4>
                         </div>
 
                         <div className='card_text'>
                             <p>A solid foundation for your projects</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>
                     <div className='card'>
 
                         <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
+                            <h4>Project coordination</h4>
                         </div>
 
                         <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
+                            <p>Unite stakeholders and achieve consensus</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>
                     <div className='card'>
 
                         <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
+                            <h4>Media relations</h4>
                         </div>
 
                         <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
+                            <p>Leverage media and press influence</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>
                     <div className='card'>
 
                         <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
+                            <h4>Copywriting & content</h4>
                         </div>
 
                         <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
+                            <p>Define and disseminate a brand image</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>
                     <div className='card'>
 
                         <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
+                            <h4>Training</h4>
                         </div>
 
                         <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
+                            <p>The knowledge to communicate. The understanding to explain</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>
                     <div className='card'>
 
                         <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
+                            <h4>Online presence</h4>
                         </div>
 
                         <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
+                            <p>Maximise your digital activities</p>
+                        </div>
+
+                        {/* Это временный смайлик, тут будет иконка */}
+                        <div className='card_button'>
+                            <p>See &#8600;</p>
                         </div>
 
                     </div>

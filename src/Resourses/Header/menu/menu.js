@@ -4,17 +4,25 @@ import { useTranslation } from 'react-i18next';
 
 function Menu() {
 
-    const { t, i18n } = useTranslation();
-    const changeLanguage = (language) => {
-        i18n.changeLanguage(language);
-    };
+    const { t } = useTranslation();
+
     return (
         <div className="menu" id="show_menu">
-            <button className="navigation_button">{t("services")}</button>
-            <button className="navigation_button">{t("team")}</button>
-            <button className="navigation_button">{t("portfolio")}</button>
-            <button className="navigation_button">{t("skills")}</button>
-            <button className="navigation_button">{t("contact")}</button>
+            <button className="menu_navigation_button">
+                <span>{t("services")}</span>
+            </button>
+            <button className="menu_navigation_button">
+                <span>{t("team")}</span>
+            </button>
+            <button className="menu_navigation_button">
+                <span>{t("portfolio")}</span>
+            </button>
+            <button className="menu_navigation_button">
+                <span>{t("skills")}</span>
+            </button>
+            <button className="menu_navigation_button">
+                <span>{t("contact")}</span>
+            </button>
         </div>
     );
 }

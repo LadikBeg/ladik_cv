@@ -26,9 +26,9 @@ function Header() {
                 <p onClick={() => changeLanguage("en")}>Eng</p>
                 <p onClick={() => changeLanguage("ru")}>Рус</p>
             </div>
-            <span className="material-symbols-outlined" onClick={showMenu}>
-                menu
-                </span>
+            <div className="container_button_menu">
+                <button className="material-symbols-outlined" id="button_menu" onClick={showMenu}>menu</button>
+            </div>
 
         </div>
     );

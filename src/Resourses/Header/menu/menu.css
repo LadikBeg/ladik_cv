@@ -1,11 +1,42 @@
 .menu{
     height: 100vh;
-    width: 100vw;
+    width: 80vw;
     background-color: #2d2d2d;
-    position: absolute;
+    position: fixed;
     top: -100%;
-    display: none;
-}
-.navigation_menu{
+    visibility: hidden;
+    z-index: 1;
+    transition: 1s;
 
+}
+.menu_navigation_button{
+    text-transform: uppercase;
+    font-family: 'Cormorant', serif;
+    font-size: 19px;
+    color: white;
+    background-color: #545454;
+    border: none;
+    position: relative;
+
+}
+.menu_navigation_button>span {
+    cursor: pointer;
+}
+.menu_navigation_button>span:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 40%;
+    background-color: #d5cec4;
+    transition: all 0.8s ease;
+    /* right:0;
+    left: initial; */
+}
+.menu_navigation_button>span:hover:before{
+    width: 100%;
+    /* right:initial;
+    left: 0; */
 }

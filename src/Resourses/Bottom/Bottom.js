@@ -1,5 +1,7 @@
 import '../Bottom/Bottom.css'
 import { useTranslation } from 'react-i18next';
+import {scrollUp} from "./scripts_bottom";
+
 
 function Bottom() {
     const { t } = useTranslation();
@@ -42,7 +44,7 @@ function Bottom() {
                 </div>
 
                 <div className='scrollup'>
-                    <p className='scrollup_p'>Back to top</p>
+                    <p className='scrollup_p' onClick={scrollUp}>Back to top</p>
                 </div>
 
             </div>

@@ -5,6 +5,9 @@ body {
   font-family: 'Cormorant', serif;
   background-color: #d5cec4;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 

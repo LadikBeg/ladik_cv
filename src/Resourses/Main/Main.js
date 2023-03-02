@@ -58,7 +58,6 @@ function Main() {
 
                     </div>
                     <div className='card'>
-
                         <div className='card_title'>
                             <h4>Project coordination</h4>
                         </div>

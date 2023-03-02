@@ -1,0 +1,27 @@
+.Card{
+    height: 350px;
+    width: 25%;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 0 25px;
+    cursor: default;
+    text-align: center;
+    position: relative;
+}
+.Card:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(66, 60, 60, 0.3);
+    border-radius: 5px;
+    transition: all 1s ease;
+    /* right:0;
+    left: initial; */
+}
+.Card:hover:before{
+    width: 100%;
+    /* right:initial;
+    left: 0; */
+}

@@ -75,33 +75,7 @@
     gap: 20px;
     width: 73%;
 }
-.card{
-    height: 350px;
-    width: 25%;
-    border-top: 1px solid rgb(0, 0, 0);
-    padding: 0 25px;
-    cursor: default;
-    text-align: center;
-    position: relative;
-}
-.card:before{
-    content:'';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 100%;
-	background: rgba(66, 60, 60, 0.3);
-	border-radius: 5px;
-	transition: all 1s ease;
-    /* right:0;
-    left: initial; */
-}
-.card:hover:before{
-    width: 100%;
-    /* right:initial;
-    left: 0; */
-}
+
 /* Эти коменты сверху попробуй убрать, тогда закрашиваться будет слева направо как линии, я хз как лучше */
 .card_title{
     font-size: 30px;

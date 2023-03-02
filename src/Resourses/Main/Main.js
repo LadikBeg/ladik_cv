@@ -3,6 +3,7 @@ import image from './image/uels-snowdonia-nant-peris-wales.jpg'
 import { useTranslation } from 'react-i18next';
 import Menu from "../Header/menu/menu";
 import React from "react";
+import Card from "./components/Card";
 
 function Main() {
     const { t } = useTranslation();
@@ -40,108 +41,19 @@ function Main() {
                 </div>
 
                 <div className='right_side_description'>
-
-                    <div className='card'>
-                        
-                        <div className='card_title'>
-                            <h4>Audit & communication strategy</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>A solid foundation for your projects</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
-                    </div>
-                    <div className='card'>
-                        <div className='card_title'>
-                            <h4>Project coordination</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>Unite stakeholders and achieve consensus</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
-                    </div>
-                    <div className='card'>
-
-                        <div className='card_title'>
-                            <h4>Media relations</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>Leverage media and press influence</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
-                    </div>
-                    <div className='card'>
-
-                        <div className='card_title'>
-                            <h4>Copywriting & content</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>Define and disseminate a brand image</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
-                    </div>
-                    <div className='card'>
-
-                        <div className='card_title'>
-                            <h4>Training</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>The knowledge to communicate. The understanding to explain</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
-                    </div>
-                    <div className='card'>
-
-                        <div className='card_title'>
-                            <h4>Online presence</h4>
-                        </div>
-
-                        <div className='card_text'>
-                            <p>Maximise your digital activities</p>
-                        </div>
-
-                        {/* Это временный смайлик, тут будет иконка */}
-                        <div className='card_button'>
-                            <p>See &#8600;</p>
-                        </div>
-
+                    <Card id={1} title={"Communication"} body={"we keep in touch with clients throughout the development process"}/>
+                    <Card id={2} title={"Quality"} body={"we provide and guarantee the quality"}/>
+                    <Card id={3} title={"Support"} body={"we support customers after the order is completed"}/>
+                    <Card id={4} title={"Communication"} body={"we keep in touch with clients throughout the development process"}/>
+                    <Card id={5} title={"Quality"} body={"we provide and guarantee the quality"}/>
+                    <Card id={6} title={"Support"} body={"we support customers after the order is completed"}/>
                     </div>
 
                 </div>
 
             </div>
 
-        </div>
+
     );
 }
 

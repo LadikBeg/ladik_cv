@@ -77,26 +77,9 @@
 }
 
 /* Эти коменты сверху попробуй убрать, тогда закрашиваться будет слева направо как линии, я хз как лучше */
-.card_title{
-    font-size: 30px;
-}
-.card_text{
-    font-size: 26px;
-}
-.card_button{
-    background-color: rgb(202, 198, 198);
-    height: 50px;
-    width: 80px;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 10px;
-    cursor: pointer;
-}
+
+
+
 @media(max-width: 730px){
     .card{
         flex: 1 1 100%;
@@ -106,8 +89,5 @@
     }
 }
 @media(max-width: 945px){
-    .left_side_description{
-    width: 100%;
-    text-align: center;
-    }
+
 }

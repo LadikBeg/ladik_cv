@@ -25,3 +25,36 @@
     /* right:initial;
     left: 0; */
 }
+.card_title{
+    font-size: 30px;
+}
+.card_text{
+    font-size: 26px;
+}
+.card_button{
+    background-color: rgb(202, 198, 198);
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 1025px){
+    .left_side_description{
+        width: 100vw;
+        text-align: center;
+    }
+    .Card{
+        flex: 1 1 100%;
+    }
+    .right_side_description{
+        margin: auto;
+    }
+}

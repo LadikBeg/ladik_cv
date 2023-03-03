@@ -13,7 +13,7 @@ function Header() {
 
         <div className="header">
             <p id='main_text'><b>IV Company
-                <hr  align="center"  size="1" color="white"/>
+
             </b></p>
             <div className="navigation_menu">
                 <button className="navigation_button">{t("services")}</button>

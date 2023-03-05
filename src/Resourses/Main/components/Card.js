@@ -5,7 +5,7 @@ function Card(props) {
     return (
         <div className="Card">
             <div className="card_cover">
-
+                <p>стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере.</p>
             </div>
             <div className="card_content">
                 <div className='card_title'>

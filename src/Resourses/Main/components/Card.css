@@ -40,9 +40,14 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #516c41;
+    background-color: #b99d64;
     position: absolute;
     transition: 0.5s;
+
+}
+.card_cover>p{
+    width: 80%;
+
 }
 .Card:hover .card_cover{
     left: 0;

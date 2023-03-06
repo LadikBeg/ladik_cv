@@ -27,29 +27,18 @@ function Main() {
             <img src={image} alt="landscape" className="image"/>
 
             <div className='container_description'>
-
-                <div className='left_side_description'>
-
-                    <div className='description_title'>
-                       <p>Our services</p>
-                    </div>
-
-                    <div className='description_text'>
-                       <p>We work on projects that require strong sectoral expertise, precise communication and a resolutely contemporary approach.</p>
-                    </div>
-
-                </div>
-
-                <div className='right_side_description'>
+                    <p className="title_description">Languages</p>
                     <Card id={1} title={"HTML"} body={""}/>
-                    <Card id={2} title={"CSS/SCSS"} body={"we provide and guarantee the quality"}/>
-                    <Card id={3} title={"JavaScript"} body={"we support customers after the order is completed"}/>
-                    <Card id={4} title={"React"} body={"we keep in touch with clients throughout the development process"}/>
-                    <Card id={5} title={"Boostrap"} body={"we provide and guarantee the quality"}/>
-                    <Card id={6} title={"Adaptive disign"} body={"we support customers after the order is completed"}/>
-                    </div>
-
-                </div>
+                    <Card id={2} title={"CSS/SCSS"} body={""}/>
+                    <Card id={3} title={"JavaScript"} body={""}/>
+                    <p className="title_description">Frameworks</p>
+                    <Card id={4} title={"React"} body={""}/>
+                    <Card id={5} title={"Boostrap"} body={""}/>
+                    <Card id={5} title={"Node.js"} body={""}/>
+                    <p className="title_description">Layout types</p>
+                    <Card id={6} title={"Block layout"} body={""}/>
+                    <Card id={6} title={"Adaptive layout"} body={""}/>
+            </div>
 
             </div>
 

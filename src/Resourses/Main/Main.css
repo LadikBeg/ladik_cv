@@ -48,46 +48,13 @@
 .container_description{
     display: flex;
     margin: 50px auto;
-    height: auto;
     width: 90%;
     flex-wrap: wrap;
-}
-.left_side_description{
-    width: 35vh;
-    height: auto;
-    letter-spacing: 1px;
-    line-height: 25px;
-    padding: 0 15px;
-    text-align: left;
-    cursor: default;
-}
-.description_title{
-    font-size: 26px;
-}
-.description_text{
-    font-size: 22px;
-    padding-right: 15px;
-}
-.right_side_description{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
-    width: 73%;
+}
+.title_description{
+    width: 100%;
+    font-size: 51px;
 }
 
-/* Эти коменты сверху попробуй убрать, тогда закрашиваться будет слева направо как линии, я хз как лучше */
-
-
-
-@media(max-width: 730px){
-    .card{
-        flex: 1 1 100%;
-    }
-    .right_side_description{
-        margin: auto;
-    }
-}
-@media(max-width: 945px){
-
-}

@@ -19,7 +19,7 @@ function Main() {
                         {t("sup")} </p>
                 </div>
 
-                <div className="right_side_content">
+                <div className="right_side_content" >
                     <p>{t("info_about_us")}</p>
                 </div>
             </div>
@@ -28,16 +28,16 @@ function Main() {
 
             <div className='container_description'>
                     <p className="title_description">Languages</p>
-                    <Card id={1} title={"HTML"} body={""}/>
-                    <Card id={2} title={"CSS/SCSS"} body={""}/>
-                    <Card id={3} title={"JavaScript"} body={""}/>
+                    <Card title={"HTML"} body={"a standardized hypertext markup language for viewing web pages in a browser."}/>
+                    <Card title={"CSS/SCSS"} body={"a formal language for describing the appearance of a document written using a markup language."}/>
+                    <Card title={"JavaScript"} body={"multi-paradigm programming language. Supports object-oriented, imperative and functional styles."}/>
                     <p className="title_description">Frameworks</p>
-                    <Card id={4} title={"React"} body={""}/>
-                    <Card id={5} title={"Boostrap"} body={""}/>
-                    <Card id={5} title={"Node.js"} body={""}/>
+                    <Card title={"React"} body={"an open source library for developing user interfaces."}/>
+                    <Card title={"Boostrap"} body={"free set of tools for creating websites and web applications. Includes HTML and CSS templates."}/>
+                    <Card title={"Node.js"} body={"a software platform based on the V8 engine that transforms JavaScript from a highly specialized language into a general-purpose language."}/>
                     <p className="title_description">Layout types</p>
-                    <Card id={6} title={"Block layout"} body={""}/>
-                    <Card id={6} title={"Adaptive layout"} body={""}/>
+                    <Card title={"Block layout"} body={"this is an approach in which the site is built on the basis of blocks, div tags act as blocks."}/>
+                    <Card title={"Adaptive layout"} body={"this is the formation of a document structure that automatically changes the page depending on the size of the user's screen."}/>
             </div>
 
             </div>

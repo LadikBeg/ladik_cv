@@ -55,6 +55,7 @@
 }
 .title_description{
     width: 100%;
-    font-size: 51px;
+    font-size: 45px;
+    text-transform: uppercase;
 }
 

@@ -1,12 +1,14 @@
 .Card{
-    height: 350px;
+    height: 400px;
     width: 20%;
-    border-top: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid black;
     padding: 0 25px;
     cursor: default;
     position: relative;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    letter-spacing:1px;
+    color: #343434;
 }
 
 
@@ -43,18 +45,11 @@
 .card_text{
     font-size: 26px;
 }
-.card_button{
-    background-color: rgb(202, 198, 198);
-    height: 50px;
-    width: 80px;
-    text-align: center;
-    vertical-align: bottom;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 20px 20px;
-    cursor: pointer;
+
+@media(max-width: 500px){
+    .Card{
+        width: 90vw;
+    }
+
 }
 

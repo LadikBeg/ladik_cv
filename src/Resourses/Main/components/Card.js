@@ -4,8 +4,8 @@ import React from "react";
 function Card(props) {
     return (
         <div className="Card">
-            <div className="card_cover">
-                <p></p>
+            <div className="card_cover" id="card_cover">
+
             </div>
             <div className="card_content">
                 <div className='card_title'>
@@ -15,11 +15,6 @@ function Card(props) {
                 <div className='card_text'>
                     <p>{props.body}</p>
                 </div>
-                {/* Это временный смайлик, тут будет иконка */}
-
-            </div>
-            <div className='card_button'>
-                <p>See &#8600;</p>
             </div>
         </div>
     );

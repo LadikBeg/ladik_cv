@@ -96,6 +96,8 @@
     text-decoration: none;
     position:relative;
     cursor: pointer;
+    text-transform: none;
+    letter-spacing: 2px;
 }
 .made_by_p:after,
 .scrollup_p:after {

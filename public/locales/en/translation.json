@@ -7,8 +7,17 @@
   "com": "COMMUNICATION",
   "qua": "QUALITY",
   "sup": "SUPPORT",
-  "info_about_us": "Our team will help with your web development needs. We guarantee the quality.",
+  "info_about_us": "We believe that your website should be unique and reflect the personality of your business. Therefore, we use only the most advanced technologies and tools to create websites that will not only look professional, but also be functional and user-friendly.",
   "about_us_text": "About us",
-  "contact_us": "contact us",
-  "send_your_email": "Send your e-mail"
+  "contact_us": "Contact us",
+  "send_your_email": "Send your e-mail",
+  "instagram": "Instagram",
+  "facebook": "Facebook",
+  "telegram": "Telegram",
+  "send_message": "Send message",
+  "website_made_by": "WEBSITE MADE BY IBTechCo",
+  "back_to_top": "BACK TO TOP",
+  "languages": "languages",
+  "frameworks": "frameworks",
+  "layout_types": "layout types"
 }

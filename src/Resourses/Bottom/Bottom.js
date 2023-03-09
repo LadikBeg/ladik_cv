@@ -21,16 +21,16 @@ function Bottom() {
 
                 <div className="contact_us general_style">
                     <p>{t("contact_us")}</p>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Telegram</p>
+                    <p>{t("instagram")}</p>
+                    <p>{t("facebook")}</p>
+                    <p>{t("telegram")}</p>
                 </div>
 
                 <div className="mail_us general_style">
                     <p>{t("send_your_email")}</p>
                     <input placeholder="Your e-mail"/>
                     <textarea placeholder="Your message..." ></textarea>
-                    <button>Send message</button>
+                    <button>{t("send_message")}</button>
                 </div>
 
             </div>
@@ -40,11 +40,11 @@ function Bottom() {
             <div className='footer_bottom'>
 
                 <div className='made_by'> 
-                   <p className='made_by_p' >Website made by IV Company</p>
+                   <p className='made_by_p'>{t("website_made_by")}</p>
                 </div>
 
                 <div className='scrollup'>
-                    <p className='scrollup_p' onClick={scrollUp}>Back to top</p>
+                    <p className='scrollup_p' onClick={scrollUp}>{t("back_to_top")}</p>
                 </div>
 
             </div>

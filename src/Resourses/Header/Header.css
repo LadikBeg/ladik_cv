@@ -11,7 +11,6 @@
     letter-spacing: 1px;
     z-index: 1;
 }
-
 #main_text{
     padding: 20px 30px;
     border-radius: 2px;
@@ -19,6 +18,7 @@
     color: white;
     font-size: 22px;
     cursor: pointer;
+    letter-spacing: 2px;
 }
 .navigation_menu{
     display: flex;
@@ -71,14 +71,12 @@
     right:initial;
     left: 0;
 }
-
 .material-symbols-outlined{
     font-size: 27px;
     display: none;
     padding: 5px;
     transition: 1s;
 }
-
 .container_button_menu{
     position: absolute;
     right: 0;
@@ -90,9 +88,6 @@
     border: none;
     background-color: #545454;
     color: white;
-}
-@media(max-width: 932px){
-
 }
 @media(max-width: 730px){
     .navigation_menu{

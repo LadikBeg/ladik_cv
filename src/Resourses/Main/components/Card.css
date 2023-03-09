@@ -10,8 +10,6 @@
     letter-spacing:1px;
     color: #343434;
 }
-
-
 .card_content{
     width: 80%;
     transition: 0.3s;
@@ -45,11 +43,9 @@
 .card_text{
     font-size: 26px;
 }
-
 @media(max-width: 500px){
     .Card{
         width: 90vw;
     }
-
 }
 

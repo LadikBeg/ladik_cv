@@ -31,11 +31,7 @@
     opacity: 40%;
     background-color: #d5cec4;
     transition: all 0.8s ease;
-    /* right:0;
-    left: initial; */
 }
 .menu_navigation_button>span:hover:before{
     width: 100%;
-    /* right:initial;
-    left: 0; */
 }

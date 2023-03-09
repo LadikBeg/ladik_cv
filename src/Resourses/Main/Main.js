@@ -40,7 +40,7 @@ function Main() {
                     <Card title={"Adaptive layout"} body={"this is the formation of a document structure that automatically changes the page depending on the size of the user's screen."}/>
             </div>
 
-            </div>
+        </div>
 
 
     );

@@ -1,6 +1,6 @@
 .header{
     position: fixed;
-    height: 70px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,11 +12,11 @@
     z-index: 1;
 }
 #main_text{
-    padding: 20px 30px;
+    padding: 15px 25px;
     border-radius: 2px;
     background-color: #545454;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
     letter-spacing: 2px;
 }
@@ -99,5 +99,4 @@
     .material-symbols-outlined{
         display: initial;
     }
-
 }

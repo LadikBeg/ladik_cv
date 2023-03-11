@@ -19,5 +19,15 @@
   "back_to_top": "BACK TO TOP",
   "languages": "languages",
   "frameworks": "frameworks",
-  "layout_types": "layout types"
+  "layout_types": "layout types",
+  "html_description": "a standardized hypertext markup language for viewing web pages in a browser.",
+  "css_description": "a formal language for describing the appearance of a document written using a markup language.",
+  "js_description": "multi-paradigm programming language. Supports object-oriented, imperative and functional styles.",
+  "react_description": "an open source library for developing user interfaces.",
+  "boostrap_description": "free set of tools for creating websites and web applications. Includes HTML and CSS templates.",
+  "node_description": "a software platform based on the V8 engine that transforms JavaScript from a highly specialized language into a general-purpose language.",
+  "block_layout_description": "this is an approach in which the site is built on the basis of blocks, div tags act as blocks.",
+  "block_layout_title": "Block layout",
+  "adaptive_layout_description": "this is the formation of a document structure that automatically changes the page depending on the size of the user's screen.",
+  "adaptive_layout_title": "Adaptive layout"
 }

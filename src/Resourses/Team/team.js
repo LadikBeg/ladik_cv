@@ -1,10 +1,10 @@
 import React from "react";
-import {useTranslation} from "react-i18next";
+
 import "./team.css"
 import vlad_image from "./resourses/image/Vlad_image.png"
 import ilya_image from "./resourses/image/Ilya_image.png"
 function Team() {
-    const { t } = useTranslation();
+    /*const { t } = useTranslation();*/
     return (
         <div className="Team">
             <hr  align="center"  size="1" color="black" width="100%"/>

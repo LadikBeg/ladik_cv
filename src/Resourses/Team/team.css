@@ -1,0 +1,45 @@
+.container_for_team{
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.description_person{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.text_about_person{
+    width: 550px;
+}
+.person_name{
+    font-size: 33px;
+}
+.text_about_me{
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #2d2d2d;
+}
+.team_image{
+    border-radius: 4px;
+    height: 450px;
+}
+
+.block_team{
+    width: 100%;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+

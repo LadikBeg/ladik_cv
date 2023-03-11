@@ -12,9 +12,7 @@ function Header() {
     return (
 
         <div className="header">
-            <p id='main_text'><b>IBTechCo
-
-            </b></p>
+            <p id='main_text'><b>IBTechCo</b></p>
             <div className="navigation_menu">
                 <button className="navigation_button">{t("services")}</button>
                 <button className="navigation_button">{t("team")}</button>

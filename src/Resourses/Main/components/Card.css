@@ -42,6 +42,7 @@
 }
 .card_text{
     font-size: 26px;
+    color: #444444;
 }
 @media(max-width: 500px){
     .Card{

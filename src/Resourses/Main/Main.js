@@ -1,5 +1,5 @@
-import '../Main/Main.css'
-// import image from './image/LADIK311_man_is_sittin_on_the_computer_casual_style_coding__bei_669fb168-9f85-4df4-b569-91b48ebc01cd.png'
+import '../Main/Main.css';
+import image from './image/LADIK311_man_is_sittin_on_the_computer_casual_style_coding__bei_669fb168-9f85-4df4-b569-91b48ebc01cd.png'
 import { useTranslation } from 'react-i18next';
 import Menu from "../Header/menu/menu";
 import React from "react";
@@ -24,7 +24,7 @@ function Main() {
                 </div>
             </div>
 
-            {/* <img src={image} alt="landscape" className="image"/> */}
+             <img src={image} alt="landscape" className="image"/>
 
             <div className='container_description'>
                     <p className="title_description">{t("languages")}</p>

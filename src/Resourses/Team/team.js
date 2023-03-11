@@ -12,7 +12,7 @@ function Team() {
                 <p className="block_team">Team</p>
                 <div className="description_person">
                     <div className="text_about_person">
-                        <p className="person_name"> Vladyslav Behim</p>
+                        <p className="person_name"> Vladyslav Behin</p>
                         <p className="text_about_me">Hello, my name is Vladislav, I am 23 years old.
                             I studied as a programmer at Kharkov Aviation University and gained knowledge in programming and testing.
                             I recently moved from Ukraine to Estonia, where I decided to start my career and create my own startup with a friend.

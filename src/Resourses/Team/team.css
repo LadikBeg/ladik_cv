@@ -16,6 +16,7 @@
 }
 .text_about_person{
     width: 550px;
+    text-align: left;
 }
 .person_name{
     font-size: 33px;
@@ -24,18 +25,31 @@
     font-size: 22px;
     color: white;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #2d2d2d;
 }
 .team_image{
     border-radius: 4px;
     height: 450px;
+    transition: 0.3s ease-in-out;
 }
 
 .block_team{
     width: 100%;
     font-size: 45px;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out;
+}
+.Team:hover .block_team{
+    letter-spacing: 20px;
+    text-shadow: 0px 35px 2px #a6a6a6;
+    transition: 0.3s ease-in-out;
+}
+
+.Team:hover .team_image {
+    box-shadow: 60px -16px teal;
+    transition: 0.3s ease-in-out;
 }
 
 

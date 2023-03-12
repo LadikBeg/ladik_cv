@@ -1,3 +1,8 @@
+.Team{
+    background-color: #545454;
+    padding-bottom: 20px;
+}
+
 .container_for_team{
     display: flex;
     margin: 50px auto;
@@ -15,23 +20,25 @@
     gap: 20px;
 }
 .text_about_person{
-    width: 550px;
+    width: 650px;
     text-align: left;
 }
 .person_name{
     font-size: 33px;
+    color: #d5cec4;
 }
 .text_about_me{
     font-size: 22px;
-    color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
-    background-color: #2d2d2d;
+    background-color: #d5cec4;
 }
 .team_image{
     border-radius: 4px;
     height: 450px;
     transition: 0.3s ease-in-out;
+    box-shadow: 10px -8px #d5cec4;
 }
 
 .block_team{
@@ -40,15 +47,17 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: 0.3s ease-in-out;
+    color: white;
+    text-shadow: 0px 3px 2px #d5cec4;
 }
 .Team:hover .block_team{
     letter-spacing: 20px;
-    text-shadow: 0px 35px 2px #a6a6a6;
+    text-shadow: 0px 35px 2px #d5cec4;
     transition: 0.3s ease-in-out;
 }
 
 .Team:hover .team_image {
-    box-shadow: 60px -16px teal;
+    box-shadow: 60px -16px #d5cec4;
     transition: 0.3s ease-in-out;
 }
 

@@ -8,7 +8,6 @@ function Team() {
     const { t } = useTranslation();
     return (
         <div className="Team">
-            <hr  align="center"  size="1" color="black" width="100%"/>
             <div className="container_for_team">
                 <p className="block_team">Team</p>
                 <div className="description_person">

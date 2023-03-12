@@ -3,15 +3,16 @@ import Header from './Resourses/Header/Header'
 import Main from './Resourses/Main/Main'
 import Bottom from "./Resourses/Bottom/Bottom";
 import Team from "./Resourses/Team/team";
+import Skills from "./Resourses/skills/skills";
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+        <Header/>
         <Main/>
-
-      <Team/>
+        <Team/>
+        <Skills/>
         <Bottom/>
     </div>
   );

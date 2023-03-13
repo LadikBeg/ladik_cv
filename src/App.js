@@ -3,7 +3,8 @@ import Header from './Resourses/Header/Header'
 import Main from './Resourses/Main/Main'
 import Bottom from "./Resourses/Bottom/Bottom";
 import Team from "./Resourses/Team/team";
-import Skills from "./Resourses/skills/skills";
+import Skills from "./Resourses/Skills/skills";
+import Contact from "./Resourses/Contact/contact";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Main/>
         <Team/>
         <Skills/>
+        <Contact/>
         <Bottom/>
     </div>
   );

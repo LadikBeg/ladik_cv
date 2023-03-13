@@ -1,5 +1,5 @@
 .Card{
-    height: 400px;
+    height: 310px;
     width: 20%;
     border-top: 1px solid black;
     padding: 0 25px;
@@ -23,14 +23,12 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #b99d64;
+    background-color: #c5c0af;
     position: absolute;
     transition: 0.5s;
-
 }
 .card_cover>p{
     width: 80%;
-
 }
 .Card:hover .card_cover{
     left: 0;
@@ -49,4 +47,3 @@
         width: 90vw;
     }
 }
-

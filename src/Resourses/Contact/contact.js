@@ -2,16 +2,17 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import './contact.css'
 
+
 function Contact() {
     const { t } = useTranslation();
     return ( 
         <div className="contact_container">
+                    <h4 className="contact_title">Contact with us</h4>
 
             <div className="contact_block">
 
                 <div className="contact_info">
 
-                    <h4 className="contact_title">Contact with us</h4>
                     
                         <div className="contact_about">
 
@@ -30,11 +31,7 @@ function Contact() {
                             <textarea className="line" placeholder="Order information..."></textarea>
                         </div>
 
-                        <div className="contact_file">
-                            <p>Example (not necessary) 
-                            <input type="file" name="foto"></input>
-                            </p>
-                        </div>
+                        
 
                         <div className="contact_answer">
                             <p>You will receive an answer within 12 hours</p>
@@ -44,10 +41,8 @@ function Contact() {
                             <button>Submit form</button>
                         </div>
                 </div>
-
-                <div className="contact_image">
                 
-                </div>
+                
             </div>
 
         </div>

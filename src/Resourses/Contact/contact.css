@@ -1,6 +1,5 @@
 .contact_container{
     background-color: #4f4f4f;
-    height: 650px;
     padding: 40px;
     color: #f3f3f3;
 }
@@ -20,7 +19,6 @@
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;
-  
 }
 .contact_about{
     display: flex;
@@ -39,9 +37,10 @@
 }
 .contact_textarea p{
     font-size: 26px;
+    margin-left: -13px;
 }
 .contact_textarea textarea{
-    width: 60%;
+    min-width: 70%;
     height: 90px;
     font-size: 16px;
     color: rgb(222, 222, 222);
@@ -49,6 +48,12 @@
     letter-spacing: 1px;
     resize: none;
     overflow: hidden;
+}
+@media (max-width: 500px) {
+    .contact_textarea{
+        margin-left: -25px;
+        width: 200px;
+    }
 }
 .line{
     border-bottom:1px solid #dedede ;
@@ -60,13 +65,11 @@
     border-top-style: none;
     border-bottom-width: 1px;
     outline: none;
-
 }
-
 .contact_send button{
     margin-top: 20px;
     height: 40px;
-    width: 25%;
+    width: 150px;
     text-transform: uppercase;
     letter-spacing: 3px;
     cursor: pointer;
@@ -76,6 +79,7 @@
     color: rgb(53, 53, 53);
     font-weight: 600;
     transition: 0.4s;
+    margin-bottom: 10px;
 }
 .contact_answer{
     padding-top: 10px;
@@ -85,4 +89,3 @@
     background-color: #ededed;
     box-shadow: 0px 0px 5px 0px rgb(63, 63, 63);
 }
-

@@ -17,7 +17,7 @@
   "send_message": "Send message",
   "website_made_by": "WEBSITE MADE BY IBTechCo",
   "back_to_top": "BACK TO TOP",
-  "languages": "languages",
+  "languages": "programming languages",
   "frameworks": "frameworks",
   "layout_types": "layout types",
   "html_description": "a standardized hypertext markup language for viewing web pages in a browser.",
@@ -33,5 +33,16 @@
   "vlad_name": "Vladyslav Behim",
   "ilya_name": "Ilja Ossipov",
   "vlad_description": "Hello, my name is Vladislav, I am 23 years old. I studied as a programmer at Kharkov Aviation University and gained knowledge in programming and testing. I recently moved from Ukraine to Estonia, where I decided to start my career and create my own startup with a friend. We are both fast learners and ready to face any challenge that may come our way. I am passionate about programming and always try to expand my knowledge and skills in this area. I am sure that with our efforts and my knowledge in programming and testing, we will be able to create a successful and innovative project.",
-  "ilya_description": "Hi, my name is Ilya, I am 26 years old. Recently I decided to change my field of activity and start learning programming. Since then, I have not ceased to absorb new knowledge and improve my skills. I am hardworking and willing to face challenges in order to achieve my goals in this area. I really like programming and I am sure that I can achieve success in this area thanks to my dedication and perseverance. I am ready for new challenges and I am sure that my efforts will not be in vain."
+  "ilya_description": "Hi, my name is Ilya, I am 26 years old. Recently I decided to change my field of activity and start learning programming. Since then, I have not ceased to absorb new knowledge and improve my skills. I am hardworking and willing to face challenges in order to achieve my goals in this area. I really like programming and I am sure that I can achieve success in this area thanks to my dedication and perseverance. I am ready for new challenges and I am sure that my efforts will not be in vain.",
+  "your_name": "Your name",
+  "contact_with_us": "Contact with us",
+  "your_email": "Your e-mail",
+  "task_description": "Task description",
+  "answer": "You will receive an answer within 12 hours",
+  "submit_form": "Submit form",
+  "enter_name": "Enter your name",
+  "enter_mail": "Enter e-mail address",
+  "order_information": "Order information...",
+  "your-mail": "Your e-mail",
+  "your-message": "Your message..."
 }

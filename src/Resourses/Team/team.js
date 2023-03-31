@@ -9,7 +9,7 @@ function Team() {
     return (
         <div className="Team">
             <div className="container_for_team">
-                <p className="block_team">Team</p>
+                <p className="block_team">{t("team")}</p>
                 <div className="description_person">
                     <div className="text_about_person">
                         <p className="person_name"> <b>{t("vlad_name")}</b> </p>

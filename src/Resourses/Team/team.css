@@ -26,6 +26,7 @@
     font-size: 33px;
     color: #d5cec4;
     letter-spacing: 2px;
+    transition: 0.3s ease-in-out;
 }
 .text_about_me{
     font-size: 22px;
@@ -58,6 +59,10 @@
 }
 .Team:hover .team_image{
     box-shadow: 20px -16px 25px 0px #d5cec4;
+    transition: 0.3s ease-in-out;
+}
+.Team:hover .person_name{
+    margin-left: 50px;
     transition: 0.3s ease-in-out;
 }
 @media(max-width: 500px){

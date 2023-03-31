@@ -7,7 +7,7 @@ function Contact() {
     const { t } = useTranslation();
     return ( 
         <div className="contact_container">
-                    <h4 className="contact_title">Contact with us</h4>
+                    <h4 className="contact_title">{t("contact_with_us")}</h4>
 
             <div className="contact_block">
 
@@ -16,29 +16,29 @@ function Contact() {
                     
                         <div className="contact_about">
 
-                            <p>Your name <br></br>
-                            <input className="line" placeholder="Enter your name"></input>
+                            <p>{t("your_name")}<br></br>
+                            <input className="line" placeholder= {t("enter_name")}></input>
                             </p>
 
-                            <p>Your e-mail <br></br>
-                            <input className="line" placeholder="Enter email address"></input>
+                            <p>{t("your_email")}<br></br>
+                            <input className="line" placeholder= {t("enter_mail")}></input>
                             </p>
 
                         </div>
 
                         <div className="contact_textarea">
-                            <p>Task description</p>
-                            <textarea className="line" placeholder="Order information..."></textarea>
+                            <p>{t("task_description")}</p>
+                            <textarea className="line" placeholder={t("order_information")}></textarea>
                         </div>
 
                         
 
                         <div className="contact_answer">
-                            <p>You will receive an answer within 12 hours</p>
+                            <p>{t("answer")}</p>
                         </div>
                         
                         <div className="contact_send">
-                            <button>Submit form</button>
+                            <button>{t("submit_form")}</button>
                         </div>
                 </div>
                 

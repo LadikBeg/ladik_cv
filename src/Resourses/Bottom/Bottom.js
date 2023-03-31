@@ -28,8 +28,8 @@ function Bottom() {
 
                 <div className="mail_us general_style">
                     <p>{t("send_your_email")}</p>
-                    <input placeholder="Your e-mail"/>
-                    <textarea placeholder="Your message..." ></textarea>
+                    <input placeholder={t("your-mail")}/>
+                    <textarea placeholder={t("your-message")}></textarea>
                     <button>{t("send_message")}</button>
                 </div>
 
